@@ -28,3 +28,4 @@ step,phase,database,configuration,description,records,control_in_scope,notes
 27,deduplication,Parsif.al,–,Automatic duplicate detection,1256,–,1256 marked as duplicates
 28,deduplication,Parsif.al,–,Cross-check by DOI and normalized title,28,–,28 residual copies (same DOI; title spelling differences) marked manually; 0 false positives
 29,deduplication,Parsif.al,–,Result,1850,7/8,"1284 duplicates; 1850 unique records (Scopus 1044, ACM 100, IEEE 266, WoS 440). Control: 7 of 8 in-scope studies in the union of the four databases"
+30,verification,Scopus; IEEE Xplore; Web of Science; ACM DL,–,"Control study B017 searched by title without filters (Scopus also by ISSN and author); positive controls retrieved",0,0/1,"B017 not indexed in the four databases; in Scopus its journal is classified only under Medicine"

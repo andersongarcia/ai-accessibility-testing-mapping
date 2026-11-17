@@ -2,7 +2,7 @@
 
 Replication package of the paper *Artificial Intelligence in Accessibility Testing of Web and Mobile Applications: A Systematic Mapping Study* (Garcia, Rodrigues, Antonelli and Rodrigues). It contains the protocol, the search strings and log, the control set, the screening decisions, the extracted data, the decision log and the scripts that reproduce the counts and figures of the paper.
 
-Version 1.0 (2026-11-17). Searches executed on 2026-10-13; publication period 2022–2026.
+Version 1.0.1 (2026-11-17). Searches executed on 2026-10-13; publication period 2022–2026.
 
 ## Contents
 
@@ -10,7 +10,7 @@ Version 1.0 (2026-11-17). Searches executed on 2026-10-13; publication period 20
 |---|---|
 | `protocol/protocol.md` | Objective, research questions, PIOC, selection criteria and data extraction form |
 | `search/search_strings.md` | Executed strings per database, adaptations and filters |
-| `search/search_log.csv` | Calibration (Scopus), execution, import and deduplication, with records and control-set recall |
+| `search/search_log.csv` | Calibration (Scopus), execution, import, deduplication and control-set verification, with records and control-set recall |
 | `control/control_set.csv` | Control set (8 in-scope studies) and the databases that retrieved each one |
 | `selection/stage1_screening.csv` | Stage 1 decisions for the 331 records of queue 1 (analyzed subset) |
 | `selection/stage2_fulltext.csv` | Stage 2 decisions for the 52 records read in full text |
@@ -83,7 +83,7 @@ Data and documentation: Creative Commons Attribution 4.0 International (CC BY 4.
 
 ## How to cite
 
-Garcia, A. C.; Rodrigues, S. S.; Antonelli, H.; Rodrigues, K. R. H. *Artificial Intelligence in Accessibility Testing of Web and Mobile Applications: A Systematic Mapping Study* — replication package, version 1.0, 2026.
+Garcia, A. C.; Rodrigues, S. S.; Antonelli, H.; Rodrigues, K. R. H. *Artificial Intelligence in Accessibility Testing of Web and Mobile Applications: A Systematic Mapping Study* — replication package, version 1.0.1, 2026.
 
 ## Contact
 
