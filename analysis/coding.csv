@@ -1,0 +1,39 @@
+record_id,first_author,short_name,venue_type,issues_code,limitations_code,ground_truth_code,contribution_code
+REG-0251,Porplytsya,Perceptual validation (OCR),Conference,CON,EVAL;GT;COV,NONE,TOOL
+REG-0256,Ara,DT barrier score over MAUVE++,Conference,BROAD,GT;EVAL;DEP,TOOL,METHOD
+REG-0257,Chirumavilla,CI/CD framework with AI-augmented testing,Conference,IMG;CON;KBD;LBL;STR,REP;GEN;GT,NONE,METHOD
+REG-0262,Selvam,AI-driven WCAG 2.2 prototype,Conference,IMG;CON;KBD;STR;LBL;TXT,REP;GT,NONE,METHOD
+REG-0264,Kim,Dual-agent RAG pipeline (mobile),Conference,BROAD,EVAL;DEP;HAL,NONE,METHOD
+REG-0265,Ramineni,Classical ML detection of ADA/WCAG issues,Conference,IMG;KBD;CON;MED;LBL;STR;TXT,REP;EVAL,NONE,METHOD
+REG-0327,Shrestha,Fuel,Journal,BROAD,EVAL;COV;HAL,HUMAN,TOOL
+REG-0341,He,GenA11y,Journal,BROAD;IMG;CON;STR;LBL,HAL;COV;COST;GT,HUMAN,TOOL
+REG-0345,Majidi,LADar,Conference,IMG;CON;KBD;TXT,COV;EVAL;COST;HAL,ACT,TOOL
+REG-0346,Noreskal,LLM audit of website images,Conference,IMG,EVAL;COST,HUMAN,TOOL
+REG-0349,Leonardi,Lightweight-first hybrid framework,Conference,LBL;KBD,EVAL;GT,NONE,METHOD
+REG-0358,Hu,Contrastive reachability testing,Conference,SR;KBD,EVAL;COV,NONE,METHOD
+REG-0360,Bassi,LLM-based HTML/WCAG auditing,Conference,STR;BROAD,EVAL;HAL,HUMAN,EMPIRICAL
+REG-0361,Aljedaani,LLMs on Android XML layouts,Conference,LBL;CON;IMG;KBD,HAL;COV,HUMAN,EMPIRICAL
+REG-0375,Andruccioli,LLMs on tabular components code,Journal,STR,COV;HAL,HUMAN,EMPIRICAL
+REG-0380,Zhong,ScreenAudit,Conference,SR;LBL,COV;HAL;EVAL,HUMAN,TOOL
+REG-0481,Lopez-Gil,Seven LLMs on 39 WCAG SC (ACT),Journal,BROAD,COV;HAL,ACT,EMPIRICAL
+REG-0485,Paterno,MAUVE++ extended with GPT-4o,Conference,STR;LBL,EVAL;COV,HUMAN,TOOL
+REG-0487,Delnevo,ChatGPT for HTML accessibility,Conference,LBL;STR;IMG,EVAL;GT;HAL,NONE,EMPIRICAL
+REG-0526,Fathallah,AccessGuru,Conference,BROAD;STR,COV;DEP,HUMAN,TOOL
+REG-0551,Lopez-Gil,LLM scripts for three manual SC,Journal,IMG;LBL;TXT,COV;EVAL,ACT,EMPIRICAL
+REG-0582,Khan,AdaptiveUI,Conference,CON,COV;GT,TOOL,TOOL
+REG-0617,Almenara,U+A heuristics (GenAI mappings),Journal,TXT,GT;EVAL;GEN,NONE,METHOD
+REG-0935,Santana,"Chatbots, agentic browsers and MAS",Conference,IMG;MED;KBD,HAL;COV;EVAL,HUMAN,EMPIRICAL
+REG-0959,Mayrhofer,AugmentAble,Conference,IMG;CON;LBL,EVAL,NONE,TOOL
+REG-0960,Zhang,VisualDroid,Journal,SR,COV;COST;HAL,HUMAN,TOOL
+REG-1016,Keating,Browser-native SLM extension,Conference,LBL,EVAL;COV,NONE,TOOL
+REG-1092,Gatto,SviluppAbile,Conference,BROAD,EVAL;HAL,NONE,TOOL
+REG-1108,Koyama,HEAR,Conference,KBD;LBL;CON,DEP;EVAL;HAL,HUMAN,TOOL
+REG-1200,Hambley,ML-based page sampling (WCAG-EM),Journal,SAMP,GEN;DEP;COV,TOOL,METHOD
+REG-1309,Al-Khalifa,VisionAlt-Score,Conference,IMG,GT,NONE,METRIC
+REG-1460,Ara,Expert-criteria evaluation framework,Journal,BROAD,EVAL;REP,USERS,METHOD
+REG-1556,Ara,RF/DT accessibility score,Journal,BROAD,GT;EVAL,TOOL,METHOD
+REG-1561,Noreskal,CNN/YOLO image classification (RGAA),Conference,IMG,EVAL,HUMAN,METHOD
+REG-1582,Pylypchuk,Screenshot contrast module (OCR),Conference,CON,EVAL;HAL,NONE,TOOL
+REG-1619,Pylypchuk,Parallelized contrast module (OCR),Conference,CON,HAL,NONE,TOOL
+REG-1690,Dash,Real-time page scanner,Journal,STR;CON;LBL;IMG,EVAL,NONE,TOOL
+REG-1790,Shrestha,Transformer for image descriptions,Conference,IMG,GT;GEN,HUMAN,METHOD

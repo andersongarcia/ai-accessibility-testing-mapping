@@ -1,0 +1,30 @@
+step,phase,database,configuration,description,records,control_in_scope,notes
+1,calibration,Scopus,V1-C1,Initial exploratory string (broad),1071,n/r,Exploratory configuration with a visual-impairment focus
+2,calibration,Scopus,V1-C2,V1-C1 + synonyms,2658,n/r,Exploratory configuration
+3,calibration,Scopus,V1-C3,V1-C2 with stem wildcards,40407,n/r,Not viable: massive noise
+4,calibration,Scopus,C1,(accessib* OR WCAG) AND visual-impairment facet AND AI AND testing AND platform,979,n/r,Visual-impairment facet strongly reduced recall of the control set; the disability became an extraction field instead of a search facet
+5,calibration,Scopus,B1,accessib* AND AI AND testing AND platform (no filters),14666,n/r,High recall but unmanageable volume
+6,calibration,Scopus,E1,accessibility/WCAG + restricted platform terms,2884,n/r,Reduces volume while keeping recall
+7,calibration,Scopus,E2,E1 + English + (COMP OR ENGI) + (conference paper OR article),1825,n/r,Language/subject/document-type filters
+8,calibration,Scopus,E3,E2 + PUBYEAR > 2019,1665,n/r,Period test
+9,calibration,Scopus,E4,E2 + PUBYEAR > 2021,1581,n/r,Chosen period (2022 onwards)
+10,calibration,Scopus,D4,E4 + SUBJAREA(COMP) only,1457,5/6,Within the volume target; misses a control study that uses only validation terminology
+11,calibration,Scopus,T0,D4 re-executed,1457,n/r,Same count: reproducible
+12,calibration,Scopus,T1,D4 + validat*,1507,6/6,
+13,calibration,Scopus,T2,D4 + AI,1578,5/6,
+14,calibration,Scopus,T3,D4 + validat* + AI,1634,6/6,Final string; above the 1500 target and accepted
+15,calibration,ACM DL,T3 (ACM syntax),Title/Abstract/Keyword; 2022-2026,180,n/r,Preliminary run; replaced by the official search
+16,calibration,IEEE Xplore,T3 (IEEE syntax),All Metadata; no year filter,1915,n/r,Preliminary run; too broad
+17,calibration,IEEE Xplore,T3 (IEEE syntax),All Metadata; 2022-2026,1722,n/r,Preliminary run; replaced by title/abstract/author keywords (official search)
+18,search,Scopus,T3,Official search (2026-10-13),1656,6/6,BibTeX export with abstract and keywords
+19,search,ACM DL,T3 (ACM syntax),Wildcards inside quotes,48,n/r,Discarded: the ACM DL does not accept wildcards inside quotes
+20,search,ACM DL,T3 (ACM syntax),Official search (2026-10-13); wildcards without quotes,211,4/4,BibTeX export
+21,search,IEEE Xplore,T3 (IEEE syntax),Official search (2026-10-13); Document Title/Abstract/Author Keywords,776,0/0,CSV export converted to BibTeX; no in-scope control study is published by IEEE
+22,search,Web of Science,T3 (WoS syntax),Official search (2026-10-13),491,4/4,BibTeX export
+23,search,ScienceDirect,T3,Attempt (2026-10-13),–,–,Rejected by the database (max. 8 Boolean connectors per field; no wildcards); not searched separately
+24,search,Springer Link,T3,Attempt (2026-10-13),32018,–,Full-text search only; not viable; not searched separately
+25,search,Taylor & Francis,T3 (abstract field),Search (2026-10-13),5,0/0,All five records out of scope; not imported
+26,import,Parsif.al,–,Import of the four exports,3134,–,Scopus 1656 + ACM 211 + IEEE 776 + WoS 491; import count checked against export count per database
+27,deduplication,Parsif.al,–,Automatic duplicate detection,1256,–,1256 marked as duplicates
+28,deduplication,Parsif.al,–,Cross-check by DOI and normalized title,28,–,28 residual copies (same DOI; title spelling differences) marked manually; 0 false positives
+29,deduplication,Parsif.al,–,Result,1850,7/8,"1284 duplicates; 1850 unique records (Scopus 1044, ACM 100, IEEE 266, WoS 440). Control: 7 of 8 in-scope studies in the union of the four databases"

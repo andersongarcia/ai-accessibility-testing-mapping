@@ -1,0 +1,64 @@
+record_id,doi,title,year,source,stage1_decision,stage2_decision,stage2_criterion,stage2_tag
+REG-0228,10.1109/SIBIRCON56155.2022.10016785,Computer Vision Based Assessment of University Websites' Accessibility and Inclusiveness,2022,IEEE Xplore,Accepted,Rejected,EC5 – Not related to AI,
+REG-0251,10.1109/ACIT69831.2026.11700105,Software System for Perceptual Validation of Web Accessibility Based on Computer Vision and Optical Character Recognition,2026,IEEE Xplore,Accepted,Accepted,,
+REG-0253,10.1109/SMC54092.2024.10831040,AI-Enhanced Web Form Development: Tackling Accessibility Barriers with Generative Technologies,2024,IEEE Xplore,Doubt,Rejected,EC4 – Not a primary study,
+REG-0256,10.1109/CogInfoCom59411.2023.10397496,Webpage Accessibility Evaluation Using Machine Learning Technique,2023,IEEE Xplore,Accepted,Accepted,,
+REG-0257,10.1109/TIC68483.2026.11702844,"An Automated Framework for Proactive Accessibility Compliance in Enterprise Systems: Integrating AI-Augmented Testing, WAI-ARIA Patterns, and CI/CD Pipelines",2026,IEEE Xplore,Accepted,Accepted,,
+REG-0262,10.1109/AIBThings66987.2025.11296155,Implementing AI-driven Web Accessibility: WCAG 2.2 Features to Improve Usability for Users with Disabilities,2025,IEEE Xplore,Accepted,Accepted,,
+REG-0264,10.1109/ICTC66702.2025.11388949,Conversational AI-Powered Multi-Agent System for Mobile Application Accessibility Compliance: A RAG-Enhanced Pipeline Design,2025,IEEE Xplore,Accepted,Accepted,,
+REG-0265,10.1109/AICECS63354.2024.10957506,Leveraging AI and Machine Learning to Address ADA Non-Compliance in Web Applications: A Novel Approach to Enhancing Accessibility,2024,IEEE Xplore,Accepted,Accepted,,
+REG-0327,10.1145/3821215,Leveraging GPT-4o to Evaluate the Usability and Accessibility of Flutter App Interfaces,2026,ACM Digital Library,Accepted,Accepted,,
+REG-0341,10.1145/3729371,Enhancing Web Accessibility: Automated Detection of Issues with Generative AI,2025,ACM Digital Library,Accepted,Accepted,,
+REG-0344,10.1145/3832783.3834334,A11YRepair: Bridging Web Accessibility Barriers via Knowledge-Enhanced Divide-and-Conquer Repair,2026,ACM Digital Library,Doubt,Rejected,EC8 – Does not address accessibility testing/evaluation/detection/analysis,REPAIR_ONLY
+REG-0345,10.1145/3794786.3830742,LADar: an LLM-based Tool to Detect Web Accessibility Violations,2026,ACM Digital Library,Accepted,Accepted,,
+REG-0346,10.1145/3800424.3800428,Audit Website Images with LLMs,2026,ACM Digital Library,Accepted,Accepted,,
+REG-0349,10.1145/3794786.3830785,A Hybrid Light-AI-based Framework for Accessibility Validation,2026,ACM Digital Library,Accepted,Accepted,,
+REG-0353,10.1145/3800424.3800434,A11yAgent: A Multi-Agent Tool for Accessible Web Code Generation,2026,ACM Digital Library,Doubt,Rejected,EC8 – Does not address accessibility testing/evaluation/detection/analysis,REPAIR_ONLY
+REG-0354,10.1145/3776591.3833866,From Blind Edits to Verified Repair: Building Trustworthy User-Side LLM Agents for Web Accessibility,2026,ACM Digital Library,Doubt,Rejected,EC8 – Does not address accessibility testing/evaluation/detection/analysis,REPAIR_ONLY
+REG-0358,10.1145/3832783.3844578,From Accessibility to Reachability: LLM-Driven Contrastive Accessibility Testing for Android Apps,2026,ACM Digital Library,Accepted,Accepted,,
+REG-0360,10.1145/3748699.3749805,An Assessment of LLM-Based Auditing and Validation for Web Accessibility,2025,ACM Digital Library,Accepted,Accepted,,
+REG-0361,10.1145/3744257.3744270,LLMs for Accessibility in Mobile Apps: Detection and Repair,2025,ACM Digital Library,Accepted,Accepted,,
+REG-0375,10.3390/bdcc9100247,"Leveraging Large Language Models for Sustainable and Inclusive Web
+Accessibility",2025,Web of Science,Accepted,Accepted,,
+REG-0380,10.1145/3706598.3713797,"ScreenAudit: Detecting Screen Reader Accessibility Errors in Mobile Apps
+Using Large Language Models",2025,Web of Science,Accepted,Accepted,,
+REG-0481,10.1016/j.infsof.2026.108215,"An empirical investigation of Large Language Models for automated
+software compliance testing: Evidence from web accessibility",2026,Web of Science,Accepted,Accepted,,
+REG-0485,10.1145/3750069.3750310,How an LLM Can Improve Automatic Web Accessibility Validation ?,2025,Web of Science,Accepted,Accepted,,
+REG-0487,10.1109/CCNC51664.2024.10454680,"On the Interaction with Large Language Models for Web Accessibility:
+Implications and Challenges",2024,Web of Science,Accepted,Accepted,,
+REG-0516,10.3390/data10090149,"The Tabular Accessibility Dataset: A Benchmark for LLM-Based Web
+Accessibility Auditing",2025,Web of Science,Doubt,Rejected,EC4 – Not a primary study,
+REG-0526,10.1145/3663547.3746360,"AccessGuru: Leveraging LLMs to Detect and CorrectWeb Accessibility
+Violations in HTML Code",2025,Web of Science,Accepted,Accepted,,
+REG-0551,10.1007/s10209-024-01108-z,"Turning manual web accessibility success criteria into automatic: an
+LLM-based approach",2025,Web of Science,Accepted,Accepted,,
+REG-0582,10.1007/978-3-032-31048-4\_6,"AI-Powered Accessibility: Evaluating the Role of Machine Learning in
+Inclusive User Interface Design",2026,Web of Science,Doubt,Accepted,,
+REG-0583,10.1007/978-3-032-10731-2\_1,"Automating Digital Accessibility AI and Machine Learning for Inclusive
+Learning Environments",2026,Web of Science,Accepted,Rejected,EC9 – No full text available,
+REG-0617,10.3390/info15120769,"Towards Designing a Set of Usability and Accessibility Heuristics
+Focused on Cognitive Diversity: An Exploratory Case Study with
+Generative Artificial Intelligence",2024,Web of Science,Doubt,Accepted,,
+REG-0826,10.1145/3789037.3789044,Enhancing Digital Accessibility through Language-Level Classification and Adaptation: Exploring the Role of Large Language Models for Inclusive Language,2026,Scopus,Doubt,Rejected,EC7 – Not related to software applications,
+REG-0935,10.1145/3800424.3800445,On the Limits for Web Accessibility Evaluation Using AI Agents,2026,Scopus,Accepted,Accepted,,
+REG-0948,10.3390/technologies14050287,Artificial Intelligence in Web Accessibility: Towards a Theory of LLM-Assisted Remediation for Visual Disabilities,2026,Scopus,Doubt,Rejected,EC8 – Does not address accessibility testing/evaluation/detection/analysis,REPAIR_ONLY
+REG-0959,10.1007/978-3-032-29372-5_28,AugmentAble: Teaming Web Augmentation and LLMs for Instant Accessibility Improvements,2026,Scopus,Accepted,Accepted,,
+REG-0960,10.1145/3793673,Towards Testing the Accessibility of Dynamic Visual Changes in Android Mobile GUI with Multi-Modal LLMs,2026,Scopus,Accepted,Accepted,,
+REG-0981,10.1145/3800424.3800426,SATYA: An Automated Framework for Keyboard Navigation and Focus-Indicator Detection for Accessibility Testing Using Computer Vision,2026,Scopus,Accepted,Rejected,EC5 – Not related to AI,
+REG-1004,10.1145/3800424.3800453,A Multi-Agent Framework for Accessible Web Code Generation,2026,Scopus,Doubt,Rejected,EC8 – Does not address accessibility testing/evaluation/detection/analysis,REPAIR_ONLY
+REG-1016,10.1109/COMPSAC69091.2026.00262,Expanding WCAG Success Criteria Testing Coverage with Browser-Native AI,2026,Scopus,Accepted,Accepted,,
+REG-1092,10.1007/978-3-032-29372-5_24,Accessibility By Design,2026,Scopus,Doubt,Accepted,,
+REG-1108,10.1109/AITest70988.2026.00016,Bridging the Interpretation Gap in Accessibility Testing: Empathetic and Legal-Aware Bug Report Generation via Large Language Models,2026,Scopus,Doubt,Accepted,,
+REG-1200,10.1016/j.ijhcs.2025.103472,Optimising web accessibility evaluation: Population sourcing methods for web accessibility evaluation,2025,Scopus,Accepted,Accepted,,
+REG-1309,10.1109/ICTA-ATSN68371.2025.11398192,VisionAlt-Score: Large-Scale Automated Quality Grading of Web alt Text Attributes,2025,Scopus,Accepted,Accepted,,
+REG-1460,10.36244/ICJ.2025.5.3,Towards developing a framework for automated accessibility evaluation of web content from expert perspectives,2025,Scopus,Accepted,Accepted,,
+REG-1515,10.1007/978-981-99-6547-2_22,Automating Error Identification and Evaluating Web Accessibility for Differently Abled Users,2024,Scopus,Accepted,Rejected,EC9 – No full text available,
+REG-1556,10.36244/ICJ.2024.5.6,Computation of Accessibility Score of Educational Institute Webpages using Machine Learning Approaches,2024,Scopus,Accepted,Accepted,,
+REG-1561,10.1109/IPTA62886.2024.10755614,An AI Solution for Web Accessibility and Images Classification,2024,Scopus,Accepted,Accepted,,
+REG-1582,10.1109/ACIT65614.2025.11185908,Method and Algorithm for Web Content Analysis Based on Computer Vision for Contrast Evaluation,2025,Scopus,Accepted,Accepted,,
+REG-1619,10.1109/ACIT65614.2025.11185892,Parallelization and Optimization of a Method for Web Content Analysis and Accessibility Evaluation for Visually Impaired Users,2025,Scopus,Accepted,Accepted,,
+REG-1653,10.1109/EngiTek68245.2025.11567594,EvalUI: An AI-Driven Framework for Structural Assessment of UI Layouts,2025,Scopus,Accepted,Rejected,EC5 – Not related to AI,
+REG-1690,10.15575/join.v9i1.1310,AI-Powered Real-time Accessibility Enhancement: A Solution for Web Content Accessibility Issues,2024,Scopus,Accepted,Accepted,,
+REG-1771,10.1145/3555349,Classification of Layout vs. Relational Tables on the Web: Machine Learning with Rendered Pages,2022,Scopus,Doubt,Rejected,EC8 – Does not address accessibility testing/evaluation/detection/analysis,
+REG-1790,10.1145/3529836.3529856,A transformer-based deep learning model for evaluation of accessibility of image descriptions,2022,Scopus,Accepted,Accepted,,
